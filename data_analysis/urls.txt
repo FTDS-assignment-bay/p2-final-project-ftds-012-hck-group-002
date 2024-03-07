@@ -1,0 +1,2 @@
+Tableau: https://public.tableau.com/app/profile/nicku.rendy.perdana2598/viz/BankMarketingAnalysis_17096191008530/Main_Dashboard?publish=yes
+Dataset: https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing
