@@ -1,0 +1,23 @@
+age                                           30
+occupation                            Technician
+marital_status                            Single
+education_level                University Degree
+credit_default                                No
+housing_loan                                 Yes
+personal_loan                                 No
+contact_method                          Cellular
+last_contact_month                             6
+last_contact_day_of_week                  Friday
+last_contact_duration                        166
+campaign_contacts                              2
+days_since_previous_contact                  999
+previous_contacts                              0
+previous_campaign_outcome           Non-existent
+employment_variation_rate                   -2.9
+consumer_price_index                      92.963
+consumer_confidence_index                  -40.8
+euribor_3_month_rate                       1.268
+number_employed                           5076.2
+
+
+prediction: 1
