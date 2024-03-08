@@ -5,7 +5,7 @@
 
 # 🏁 Final Project Group 2 HCK-012 🏁  
 
-**Group Member**  
+**Group Members:**  
 🔴 Nicku Rendy Perdana, enrolled as Data Analyst (🖥️[Github](https://github.com/nickuperdana), 👤[LinkedIn](https://www.linkedin.com/in/nickurendyperdana/))  
 🟠 Ogi Hadicahyo, enrolled as Data Scientist (🖥️[Github](https://github.com/ogi092), 👤[LinkedIn](https://www.linkedin.com/in/ogi-hadicahyo/))  
 🟡 Panji Putra Rianto, enrolled as Data Engineer (🖥️[Github](https://github.com/panjiputra-r), 👤[LinkedIn](https://www.linkedin.com/in/panji-putra-rianto-207789213/))  
@@ -27,6 +27,7 @@
 ### Action  
 - Data Engineering by Data Engineer:
   - In the data preparation process, it was found that the data provided by the bank was still in a raw format, such as lowercase category values, missing values imputed as 'unknown', and column names not yet representative of the essence of each column's information. The data engineer is tasked with preparing a data processing and preparation workflow automatically by setting up an Airflow framework using Docker connected to a local RDBMS to fetch and store data.
+  - Developing an automated data fetching and preprocessing system, which will then be further processed by the Data Analyst and made ready as a data source for modeling and prediction by the Data Scientist.
 - Data Analysis by Data Analyst:
   - The cleaned data revealed imbalanced customer classifications, which can be addressed by focusing on data trends based on each variable/column. Visualization outputs are presented using the Tableau platform, and observation and data analysis reports are documented in a notebook file.
   - Analyzing specific data to depict the characteristics of customers who responded to telemarketing.
@@ -34,8 +35,18 @@
   - Formulating strategic conclusions to guide modeling considerations and recommending further business findings for the implementation of modeling results and predictions.
 - Data Modeling by Data Scientists:
   - Given the unbalanced composition of the modeling data, data balancing needs to be performed using methods that do not significantly affect evaluation scores. To test data performance, modeling is conducted using two learning techniques: machine learning classification and deep learning. This is done to determine the appropriate algorithm capable of predicting customer subscription interest using a case study of the provided data. The model will utilize accuracy and recall metrics to accommodate modeling requiring high prediction accuracy and minimizing the probability of false negatives in each predictive action.
+  - Creating models by experimenting with several algorithms capable of predicting classification cases. Some of the algorithms being tried include:
+    - Logistic Regression
+    - K-Nearest Neighbor Classifier
+    - Support Vector Machine Classifier
+    - Decision Tree
+    - Random Forest
+    - Artificial Neural Network
 
 ### Result  
+- About the app: "Prospect Predictor" is a predictive model designed to forecast term deposit subscriptions based on telemarketing interactions. By analyzing customer behavior and engagement during calls, this model assists banks in targeting potential subscribers efficiently, thereby optimizing telemarketing campaigns for increased success and improved customer acquisition.
+- Data Engineering by Data Engineer: Establishing an automated data fetching and cleaning system using the Airflow framework, connecting data from a local RDBMS (PostgreSQL) to Docker.
+- Data Modeling and Prediction: Developing model algorithms capable of predicting customer decisions to accept or reject term deposit subscription offers during the bank's telemarketing campaign.
 - Data Analysis by Data Analyst:
   - The modeling process ultimately utilizes logistic regression, considering the accuracy and recall values of this algorithm.
   - The model is deployed and made available online using Streamlit running on a local server.
